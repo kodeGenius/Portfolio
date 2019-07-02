@@ -1,0 +1,14 @@
+.head{
+    color: aliceblue;
+    text-align: center;
+    background-color: black;
+
+
+}
+.head img{
+    border-radius: 50%;
+    border-width: 15px;
+    height: 15px;
+    width: 15px;
+    overflow: hidden;
+}
