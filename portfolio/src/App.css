@@ -1,7 +1,27 @@
 .App {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50px 1fr 1fr 1fr;
   text-align: center;
+ 
+    
 }
+div > .bar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: orangered;
+  align-content: center;
+  justify-content: center;
+  justify-items: end;
+  border-radius: 5px;
+  border: 1px solid white;
+  border-shadow: 10px;
 
+  padding: 0px 30px 0 0;
+  margin: 10px;
+  
+
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;

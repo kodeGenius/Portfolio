@@ -1,9 +1,20 @@
 .head{
+    
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    border: 1px;
     color: aliceblue;
     text-align: center;
+    text-decoration-color: blue;
+    line-height: 0em;
     background-color: black;
-
-
+    border-radius: 10px;
+    margin: 10px 
+}
+.head:hover{
+    background-color: burlywood;
+    color: blue;
 }
 .head img{
     border-radius: 50%;

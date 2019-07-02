@@ -4,7 +4,7 @@ import './skills.css';
 class Skills extends React.Component{
     render(){
         return(
-            <div>
+            <div className="skills">
                <h1>I want to work with:</h1>
                <h2>JavaScript</h2> 
                <h2>ReactJS</h2> 
