@@ -1,4 +1,6 @@
 import React from 'react';
+import './head.css';
+
 
 class Head extends React.Component{
     render(){
@@ -11,3 +13,4 @@ class Head extends React.Component{
         )
     }
 }
+export default Head;
